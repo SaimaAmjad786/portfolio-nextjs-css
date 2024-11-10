@@ -16,7 +16,7 @@ function Home() {
           My goal is to build functional, beautiful web applications that solve real-world problems.
         </p>
       </div>
-      <Image src={"/pick1.jpg"}
+      <Image src={"/girl.jpg"}
         width={300}
         height={300}
         alt='logo'
