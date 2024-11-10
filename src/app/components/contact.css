@@ -1,0 +1,120 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:red;
+    filter: drop-shadow(0 0 5px yellowgreen);
+}
+
+.main-contact {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px crimson;
+}
+
+.main-contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+    filter: drop-shadow(0 0 5px yellowgreen);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #f0f0f0;
+}
+
+.input-field,
+.text {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid red;
+    background-color: #222;
+    color: white;
+    margin-top: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-field:focus,
+.text:focus {
+    border-color:red;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.C-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.C-btn:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .main-contact {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .main-contact h2 {
+        font-size: 28px;
+    }
+
+    .input-field, .text {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .C-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+}

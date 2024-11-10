@@ -1,0 +1,194 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Service Section */
+.service {
+    width: 100%;
+    height: auto; /* Make height flexible to avoid issues on smaller screens */
+    position: relative;
+    color: white;
+    background-color: black;
+    padding-top: 50px; /* Adjust for spacing */
+}
+
+/* Service Title */
+.service h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    filter: drop-shadow(0 0 10px yellowgreen);
+}
+
+/* Hover Effects for Cards */
+.card {
+    outline: none;
+    box-shadow: 10px 20px 30px crimson;
+    border-radius: 15px;
+    width: 100%; /* Make the card responsive */
+    max-width: 400px; /* Set max-width for larger screens */
+    height: auto; /* Allow height to be flexible */
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Adds a subtle lift effect */
+    box-shadow: 0 20px 30px crimson;
+}
+
+/* Card Container (Flexbox) */
+.main-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+/* Card Contents */
+.card li a {
+    font-size: 35px;
+    filter: drop-shadow(0 0 10px crimson);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 25px;
+    filter: drop-shadow(0 0 10px yellowgreen);
+}
+
+.card p {
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card button {
+    margin-top: 20px;
+}
+
+.card .S-btn {
+    width: 133px;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 12px white;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card .S-btn:hover {
+    scale: 1.1;
+    box-shadow: 0 20px 20px yellowgreen;
+}
+
+/* Media Queries */
+
+/* Tablet and below (up to 1024px) */
+@media (max-width: 1024px) {
+    .service h1 {
+        font-size: 30px;
+    }
+
+    .main-service {
+        gap: 20px;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .card .S-btn {
+        font-size: 12px;
+        width: 120px;
+    }
+}
+
+/* Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+    .service h1 {
+        font-size: 24px;
+    }
+
+    .main-service {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card .S-btn {
+        font-size: 11px;
+        width: 100px;
+    }
+}
+
+/* Small Mobile Devices (up to 400px) */
+@media (max-width: 400px) {
+    .service h1 {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card .S-btn {
+        font-size: 10px;
+        width: 90px;
+    }
+}
