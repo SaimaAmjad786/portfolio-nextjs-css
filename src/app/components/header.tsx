@@ -12,9 +12,9 @@ function Navbar() {
     <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Brand Name */}
-        <Link href="/" className="text-white hover:text-red-500 text-xl font-bold">
+        <h1 className="text-white hover:text-red-500 text-xl font-bold ">
           Saima Portfolio
-        </Link>
+        </h1>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-6">
@@ -80,10 +80,10 @@ function Navbar() {
         <Link href="#service" className="text-lg text-red-500  hover:text-white font-bold">
           Service
         </Link>
-        <Link href="#projects" className="text-lg text-red-500  hover:text-white font-bold">
+        <Link href="#project" className="text-lg text-red-500  hover:text-white font-bold">
           Projects
         </Link>
-        <Link href="#contact" className="text-lg text-red-500  hover:text-white font-bold">
+        <Link href="#contact-us" className="text-lg text-red-500  hover:text-white font-bold">
           Contact
         </Link>
       </div>
