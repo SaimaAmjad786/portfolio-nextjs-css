@@ -5,3 +5,161 @@
 body{
   background-color: black;
 }
+
+/* Header  */
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:crimson;
+  font-weight: bold;
+  filter: drop-shadow(0 5px 10px yellowgreen);
+}
+
+.navigation {
+  position: fixed;
+  top: 20px;
+  right: 5%;
+  z-index: 20;
+}
+
+.navigation .toggle {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  z-index: 20;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.navigation .portfolio {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  background-color: crimson;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation .portfolio .icon {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color:white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: var(--transition);
+}
+
+.navigation .portfolio .icon::after,
+.navigation .portfolio .icon::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 3px;
+  background-color: inherit;
+  z-index: 1;
+}
+
+.navigation .portfolio .icon::after {
+  top: 10px;
+}
+
+.navigation .toggle:checked + .portfolio .icon {
+  transform: rotate(135deg);
+}
+
+.navigation .toggle:checked + .portfolio .icon::before,
+.navigation .toggle:checked + .portfolio .icon::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.navigation .toggle:checked:hover + .portfolio .icon {
+  transform: rotate(225deg);
+}
+
+.navigation .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.navigation .nav .background {
+  background:rgba(255, 192, 231, 0.24);
+  width: 200vw;
+  height: 200vw;
+
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+
+  transform: scale(0);
+  transition: var(--transition);
+  border-radius: 50%;
+}
+
+.navigation .nav .background .center {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.navigation .nav .background .center ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.navigation .nav .background .center ul li a {
+  color:black;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.navigation .nav .background .center ul li a:hover {
+  color: crimson;
+}
+
+.navigation .toggle:checked ~ .nav {
+  visibility: visible;
+}
+
+.navigation .toggle:checked ~ .nav .background {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.navigation .toggle:checked ~ .nav .background .center {
+  opacity: 1;
+  transition: var(--transition) 0.4s;
+}

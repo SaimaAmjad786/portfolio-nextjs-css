@@ -39,6 +39,14 @@ function Skills() {
                     </div>
                 </div>
 
+                {/* Javascript Skill */}
+                <div className="skill">
+                    <h2>Javascript</h2>
+                    <div className="progress-bar">
+                        <div className="javascript"><span>80%</span></div>
+                    </div>
+                </div>
+
                 {/* Next.js Skill */}
                 <div className="skill">
                     <h2>Next.js</h2>

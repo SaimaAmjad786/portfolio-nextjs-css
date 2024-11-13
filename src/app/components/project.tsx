@@ -27,10 +27,10 @@ function Project() {
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
               Hackathon projects
             </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
               Static Resume Buidler
             </h1>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-black">
               This is the project which I have created for those who owns a Hackathon projects
             </p>
             
@@ -40,35 +40,33 @@ function Project() {
           </div>
         </div>
       </div>
-
-       {/* Project2 */}
-       <div className="lg:w-1/3 sm:w-1/2 p-4">
+      {/* Project2*/}
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative cursor-pointer ">
-
-          <Image data-aos="zoom-in-up" src={"/home.jpg"}
-          width={100}
+          <Image data-aos="zoom-in-up" src={"/burger-6.png"}
+          width={200}
            height={50}
            alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
            />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
-              NextJs an Taiwlvand CSS Assignmemt
+              Nextjs Custom CSS
             </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-              Home Website
+            <h1 className="title-font text-lg font-bold text-red-500  mb-3">
+              Burger Website
             </h1>
-            <p className="leading-relaxed">
-              This is the project which I have created for those who owns a Hackathon projects
+            <p className="leading-relaxed text-black">
+              This is the project which I have created for those who owns a Nextjs and CSS
             </p>
-            
-            <Link target='blank' href={"https://website-home-lac.vercel.app/"}>
+            <Link target='blank' href={"https://burger-website-delta.vercel.app/"}>
             <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
             </Link>
           </div>
         </div>
       </div>
-    
+       
+     
        {/* Project 3*/}
        <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative cursor-pointer ">
@@ -82,10 +80,10 @@ function Project() {
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
               Hackathon projects
             </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
               Shareable Resume Builder
             </h1>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-black">
               This is the project which I have created for those who owns a Hackathon projects
             </p>
             <Link target='blank' href={"https://hackathon-milestone-5-five-dusky.vercel.app/"}>
@@ -95,58 +93,7 @@ function Project() {
         </div>
       </div>
 
-      {/* Image4 */}
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative cursor-pointer ">
-          <Image data-aos="zoom-in-up" src={"/todolist.png"}
-          width={200}
-           height={50}
-           alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
-           />
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
-              Typescript project
-            </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-              TodoList Project
-            </h1>
-            <p className="leading-relaxed">
-              This is the project which I have created for those who owns a typescript projects
-            </p>
-            <Link target='blank' href={"https://github.com/SaimaAmjad786/Colourful-Todo-Application.git"}>
-            <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-      {/* Image5 */}
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative cursor-pointer ">
-          <Image data-aos="zoom-in-up" src={"/organic.jpg"}
-          width={200}
-           height={50}
-           alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
-           />
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
-              Nextjs and TaiwlvandCSS project
-            </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-              Organic Vegetables
-            </h1>
-            <p className="leading-relaxed">
-              This is the project which I have created for those who owns a nextjs and Tailwand CSS projects
-            </p>
-            <Link target='blank' href={"https://organic-website-gilt.vercel.app/"}>
-            <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Image6 */}
+      {/* project4 */}
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative cursor-pointer ">
           <Image data-aos="zoom-in-up" src={"/atm.jpg"}
@@ -159,10 +106,10 @@ function Project() {
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
               Typescript projects
             </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
               ATM Machine
             </h1>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-black">
               This is the project which I have created for those who owns a typescript projects
             </p>
             <Link target='blank' href={"https://github.com/SaimaAmjad786/cli-number-guessing.git"}>
@@ -172,10 +119,12 @@ function Project() {
         </div>
       </div>
 
-      {/* Image7 */}
+      
+
+      {/* Project5 */}
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative cursor-pointer ">
-          <Image data-aos="zoom-in-up" src={"/download.jpg"}
+          <Image data-aos="zoom-in-up" src={"/todolist.png"}
           width={200}
            height={50}
            alt="gallery"
@@ -185,44 +134,20 @@ function Project() {
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
               Typescript project
             </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-              Calcualtor Project
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
+              TodoList Project
             </h1>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-black">
               This is the project which I have created for those who owns a typescript projects
             </p>
-            <Link target='blank' href={"https://github.com/SaimaAmjad786/SIMPLE-CALCULATOR"}>
+            <Link target='blank' href={"https://github.com/SaimaAmjad786/Colourful-Todo-Application.git"}>
             <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
             </Link>
           </div>
         </div>
       </div>
-      {/* Image5 */}
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative cursor-pointer ">
-          <Image data-aos="zoom-in-up" src={"/image1.png"}
-          width={200}
-           height={50}
-           alt="gallery"
-            className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
-           />
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
-              Nextjs and Taiwlvand CSS project
-            </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-             Flower Website
-            </h1>
-            <p className="leading-relaxed">
-              This is the project which I have created for those who owns a Nextjs and Taiwlvand Css projects
-            </p>
-            <Link target='blank' href={"https://website-html-css-orpin.vercel.app/"}>
-            <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-      {/* Image9 */}
+
+      {/* Project6 */}
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative cursor-pointer ">
           <Image data-aos="zoom-in-up" src={"/guess.png"}
@@ -235,10 +160,10 @@ function Project() {
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
               Typescript Project
             </h2>
-            <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
             Number Guessing Game projects
             </h1>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-black">
               This is the project which I have created for those who owns a typescript projects
             </p>
             <Link target='blank' href={"https://github.com/SaimaAmjad786/cli-number-guessing.git"}>
@@ -247,6 +172,92 @@ function Project() {
           </div>
         </div>
       </div>
+
+
+       {/* Project7 */}
+       <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative cursor-pointer ">
+
+          <Image data-aos="zoom-in-up" src={"/home.jpg"}
+          width={100}
+           height={50}
+           alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
+           />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
+              NextJs an Taiwlvand CSS Assignmemt
+            </h2>
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
+              Home Website
+            </h1>
+            <p className="leading-relaxed text-black">
+              This is the project which I have created for those who owns a Nextjs and TaiwlvandCss
+            </p>
+            
+            <Link target='blank' href={"https://website-home-lac.vercel.app/"}>
+            <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* Project8 */}
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative cursor-pointer ">
+          <Image data-aos="zoom-in-up" src={"/image1.png"}
+          width={200}
+           height={50}
+           alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
+           />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
+              Nextjs and Taiwlvand CSS project
+            </h2>
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
+             Flower Website
+            </h1>
+            <p className="leading-relaxed text-black">
+              This is the project which I have created for those who owns a Nextjs and Taiwlvand Css projects
+            </p>
+            <Link target='blank' href={"https://website-html-css-orpin.vercel.app/"}>
+            <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
+            </Link>
+          </div>
+        </div>
+      </div>
+     
+      
+
+       {/* Project9 */}
+       <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="flex relative cursor-pointer ">
+          <Image data-aos="zoom-in-up" src={"/organic.jpg"}
+          width={200}
+           height={50}
+           alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center rounded-lg "
+           />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-red-500 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500-500 mb-1">
+              Nextjs and TaiwlvandCSS project
+            </h2>
+            <h1 className="title-font text-lg font-bold text-red-500 mb-3">
+              Organic Vegetables
+            </h1>
+            <p className="leading-relaxed text-black">
+              This is the project which I have created for those who owns a nextjs and Tailwand CSS projects
+            </p>
+            <Link target='blank' href={"https://organic-website-gilt.vercel.app/"}>
+            <p className="leading-relaxed text-red-500 font-bold hover:underline">View my all Projects</p>
+            </Link>
+          </div>
+        </div>
+      </div>
+      
+      
+
+
     </div>
   </div>
 </section>
