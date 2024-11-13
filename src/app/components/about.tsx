@@ -10,14 +10,16 @@ function About() {
     return (
         <div className="about-container" id="about">
             <div className="about-header">
+                <div className='circle' >
                 <Image 
                     src="/pick2.avif" 
                     alt="Saima's Profile" 
                     width={200} 
                     height={200} 
-                    className="image" 
+                    className="mt-40" 
                     layout="intrinsic" // Makes the image responsive
                 />
+                </div>
             </div>
 
             <div className="about-content">

@@ -16,11 +16,13 @@ function Home() {
           My goal is to build functional, beautiful web applications that solve real-world problems.
         </p>
       </div>
+      <div className='circle'>
       <Image src={"/girl.jpg"}
-        width={300}
-        height={300}
+        width={200}
+        height={200}
         alt='logo'
         className='image'/>
+        </div>
     </div>
   )
 }
